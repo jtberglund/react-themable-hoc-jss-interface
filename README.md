@@ -2,6 +2,10 @@
 
 Allows [JSS](https://github.com/cssinjs/jss) to be used with [react-themable-hoc](https://github.com/jtberglund/react-themable-hoc)
 
+```
+npm install --save react-themable-hoc-jss-interface
+```
+
 ## Usage
 
 ```js
@@ -25,7 +29,7 @@ To use custom jss plugins, simply pass your custom JSS to the `JSSInterface` con
 ```js
 import JSSInterface from 'react-themable-hoc-jss-interface';
 import jss from 'jss';
-import camelCase from 'jss-camel-case'
+import camelCase from 'jss-camel-case';
 
 // Setup jss with plugins
 jss.use(camelCase());
