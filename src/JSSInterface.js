@@ -1,8 +1,8 @@
 import { create } from 'jss';
 
 export default class JSSInterface {
-    constructor(jss, options = {}) {
-        this.jss = jss || create();
+    constructor(jss = create(), options = {}) {
+        this.jss = jss;
         this.options = options;
     }
 
